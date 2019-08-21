@@ -5,12 +5,14 @@ from tweepy.streaming import StreamListener
 import time
 from random import randint
 
+#i don't want to give ouy my api keys
 consumer_key = ''
 consumer_secret = ''
 access_token = ''
 access_secret = ''
 
 #defining replys
+#users would be replaced with actual twitter accounts
 reply0 = " @user1 @user2 @user3 @user4 @user5 check this one out"
 reply1 = " @user2 @user5 @user6 @user7 @user8 look at this one"
 reply2 = " @user3 @user2 @user1 @user8 @user4 jump on this one lads"
